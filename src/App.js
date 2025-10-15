@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 function App() {
  const [message, setMessage] = useState("Loading...");
  useEffect(() => {
- fetch("https://mern-backend-xgkx.onrender.com/api/hello")
+ fetch("https://mern-backend-1-lrwl.onrender.com/api/hello")
  .then((res) => {
  if (!res.ok) throw new Error("Network response was not ok");
  return res.json();
